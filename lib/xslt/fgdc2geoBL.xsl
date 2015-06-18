@@ -580,27 +580,15 @@ Created by Kim Durante and Darren Hardy, Stanford University Libraries
         </field>
         
         <field name="solr_geom">
-          <xsl:text>ENVELOPE(</xsl:text>
-          <xsl:value-of select="$x1"/>
-          <xsl:text> </xsl:text>
-          <xsl:value-of select="$y1"/>
-          <xsl:text>, </xsl:text>
-          <xsl:value-of select="$x2"/>
-          <xsl:text> </xsl:text>
-          <xsl:value-of select="$y1"/>
-          <xsl:text>, </xsl:text>
-          <xsl:value-of select="$x2"/>
-          <xsl:text> </xsl:text>
-          <xsl:value-of select="$y2"/>
-          <xsl:text>, </xsl:text>
-          <xsl:value-of select="$x1"/>
-          <xsl:text> </xsl:text>
-          <xsl:value-of select="$y2"/>
-          <xsl:text>, </xsl:text>
-          <xsl:value-of select="$x1"/>
-          <xsl:text> </xsl:text>
-          <xsl:value-of select="$y1"/>
-          <xsl:text>)</xsl:text>
+              <xsl:text>ENVELOPE(</xsl:text>
+              <xsl:value-of select="$x1"/>
+              <xsl:text>, </xsl:text>
+              <xsl:value-of select="$x2"/>
+              <xsl:text>, </xsl:text>
+              <xsl:value-of select="$y2"/>
+              <xsl:text>, </xsl:text>
+              <xsl:value-of select="$y1"/>
+              <xsl:text>)</xsl:text>
         </field>
         
         <field name="georss_box_s">
